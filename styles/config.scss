@@ -47,9 +47,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background-primary: #000000;
-    --color-background-secondary: #ffffff;
-    --color-accent: #660000;
-    --color-protection: rgba(255, 255, 255, 0.5);
+    --color-background-primary: #000;
+    --color-background-secondary: #fff;
+    --color-accent: #600;
+    --color-protection: rgb(255 255 255 / 50%);
   }
 }
