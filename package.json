@@ -1,6 +1,7 @@
 {
   "name": "verkefni6",
   "version": "1.0.0",
+  "description": "",
   "scripts": {
     "start": "parcel index.html",
     "dev": "parcel index.html 'sidur/*.html' --lazy --no-cache",
@@ -11,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.0",
     "parcel": "^2.16.0",
     "stylelint": "^16.25.0",
     "stylelint-config-recess-order": "^7.3.0",
