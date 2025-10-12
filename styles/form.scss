@@ -1,14 +1,14 @@
 form {
   display: grid;
-  grid-template-columns: repeat(var(--columns), 1fr);
   grid-template-rows: auto;
+  grid-template-columns: repeat(var(--columns), 1fr);
   gap: var(--gutter);
   width: 100%;
 }
 
 fieldset {
-  border: 0;
   grid-column: span 12;
+  border: 0;
 }
 
 fieldset legend {
@@ -33,19 +33,19 @@ fieldset div span {
 fieldset input,
 fieldset select,
 fieldset textarea {
-  padding: calc(var(--spacing) / 2);
   width: 100%;
-  border: 1px solid #000000;
-  background-color: #ffffff;
+  padding: calc(var(--spacing) / 2);
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
 fieldset input[type="checkbox"] {
   display: inline-block;
-  margin-right: calc(var(--spacing) / 2);
   width: auto;
+  margin-right: calc(var(--spacing) / 2);
 }
 
-@media (min-width: 700px) {
+@media (width >= 700px) {
   fieldset {
     grid-column: span 6;
   }
