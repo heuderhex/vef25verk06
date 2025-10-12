@@ -3,9 +3,15 @@
 @use "styles/fonts";
 @use "styles/global";
 @use "styles/helpers";
-@use "styles/wrapper";
 
+@use "styles/wrapper";
 @use "styles/base";
+
+@use "styles/components/nav";
+@use "styles/components/footer";
+@use "styles/components/header";
+
+
 @use "styles/buttons";
 @use "styles/form";
 @use "styles/grid";
@@ -14,9 +20,10 @@
 @use "styles/tables";
 @use "styles/buttons";
 @use "styles/components/cards";
-@use "styles/components/footer";
-@use "styles/components/nav";
+
+
 @use "styles/utils";
+
 
 
 
