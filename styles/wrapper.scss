@@ -4,25 +4,24 @@
   grid-template-columns: 100%;
   gap: var(--vertical-space);
   justify-items: center;
-
-  margin-top: var(--height-nav);
   width: 100%;
   min-height: 100vh;
+  margin-top: var(--height-nav);
   background-color: var(--color-background-primary);
-}
-
-.wrapper main {
-  flex: 1;
 }
 
 main {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 100%;
-  justify-items: center;
   gap: var(--spacing);
+  justify-items: center;
   width: var(--width-offset);
   max-width: var(--max-width);
+}
+
+.wrapper main {
+  flex: 1;
 }
 
 main > section {
